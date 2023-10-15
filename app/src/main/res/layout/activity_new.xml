@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".NewActivity">
+<ImageView
+    android:id="@+id/imgchhaya"
+    android:layout_width="240dp"
+    android:layout_height="140dp"
+    android:src="@drawable/chaaya"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    />
+<EditText
+    android:id="@+id/etMobileNumber"
+    android:hint="@string/mobile_number"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="20dp"
+    android:padding="6dp"
+    android:layout_below="@+id/imgchhaya"
+    android:minHeight="48dp"
+    android:inputType="phone"
+    android:maxLines="1"
+    android:maxLength="10"
+    />
+    <EditText
+        android:id="@+id/etPassword"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:layout_below="@+id/etMobileNumber"
+        android:minHeight="48dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+
+        />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="400dp"
+        android:hint="@string/log_in"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="6dp"
+        android:layout_below="@+id/etPassword"
+        android:background="@color/colorAccent"
+        android:text="Log in"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txtForgetpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget_password"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_yourself"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="16sp"
+        android:padding="6dp"/>
+
+</RelativeLayout>

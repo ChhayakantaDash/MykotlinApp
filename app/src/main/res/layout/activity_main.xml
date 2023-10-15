@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pranjal is best! "
+        android:layout_marginLeft="100dp"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#5bcefa"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android is fun"
+        android:padding="10dp"
+        android:layout_marginLeft="69dp"
+        android:textSize="29sp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/chaaya"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click here"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jay mata di"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER YOUR NAME"
+        android:layout_margin="46dp"
+        android:inputType="text"
+        android:minHeight="48dp"
+        />
+</LinearLayout>

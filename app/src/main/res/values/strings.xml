@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MykotlinApp</string>
+    <string name="new_app_name">My Circle</string>
+    <string name="mobile_number">Enter Mobile Number</string>
+    <string name="password">Enter Password</string>
+    <string name="log_in">Log in</string>
+    <string name="forget_password">Forget password</string>
+    <string name="register_yourself">Register yourself</string>
+</resources>

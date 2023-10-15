@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Guys! "
+        android:layout_marginLeft="140dp"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#5bcefa"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        />
+
+
+    <TextView
+        android:id="@+id/txtLayoutsubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here is fun"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_marginLeft="69dp"
+
+        android:textSize="29sp"
+        android:textStyle="italic"
+        android:layout_below="@id/txtLayoutHeader"/>
+
+    <ImageView
+        android:id="@+id/imgchhaya"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/chaaya"
+        />
+
+    <Button
+        android:id="@+id/btnclickhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLayoutsubHeader"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="46dp"
+        android:hint="ENTER YOUR NAME"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+</RelativeLayout>
